@@ -30,8 +30,7 @@ python3 --version
 [requires]
 # Set python_version to 3.9 ONLY if you have version 3.9. If you have 3.8 or 3.7 set it to that
 python_version = "3.9"
-After doing this, we can proceed to usage of the SecureWeb module
-
+```
   
 
 ## Configuring Credentials for SecureWeb login
