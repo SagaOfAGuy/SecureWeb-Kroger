@@ -164,7 +164,7 @@ if __name__=="__main__":
     args = my_parser.parse_args()
     if (args.task == "schedule"):
         secureweb = SecureWebObject()
-        secureweb.login("https://feed.kroger.com")
+        secureweb.login("https://feed-cdc.kroger.com/EmplowerESS/,DanaInfo=myeschedule.kroger.com+Schedule.aspx")
         secureweb.take_screenshot("Schedule.png")
         secureweb.get_schedule_events()
         secureweb.dump_shifts()
