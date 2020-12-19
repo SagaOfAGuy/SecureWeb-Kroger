@@ -1,4 +1,3 @@
-#!/Users/lozar/.local/share/virtualenvs/SecureWeb-buZuEbki/bin/python3
 from Browser import Chrome
 from selenium.webdriver.chrome.options import Options
 import os
