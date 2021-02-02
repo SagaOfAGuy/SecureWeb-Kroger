@@ -180,31 +180,3 @@ if __name__=="__main__":
             SecureWebObject().get_pay(args.week, True)
     else:
         print("Please enter a valid option")
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
